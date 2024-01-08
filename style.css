@@ -1,0 +1,45 @@
+@font-face{
+    font-family: Hero;
+    src: url("Hero-Regular.ttf");
+}
+
+@font-face{
+    font-family: Hero-Bold;
+    src: url("Hero-Bold.ttf");
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    padding-bottom: 250px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 12px;
+    font-family: 'Hero';
+}
+
+.logo{
+    margin-left: 50px;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: 'Hero-Bold';
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
