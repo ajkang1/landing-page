@@ -14,7 +14,6 @@ body{
 
 .header{
     display: flex;
-    padding-bottom: 250px;
     background-color: #1F2937;
     color: white;
 }
@@ -23,15 +22,15 @@ body{
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-right: 50px;
-    font-size: 12px;
+    margin-right: 100px;
+    font-size: 18px;
     font-family: 'Hero';
 }
 
 .logo{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: auto;
-    font-size: 17px;
+    font-size: 24px;
     font-family: 'Hero-Bold';
 }
 
@@ -42,4 +41,52 @@ ul{
 a{
     text-decoration: none;
     color: white;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    gap: 50px;
+    background-color: #1F2937;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    max-width: 475px;
+}
+
+.awesome-text{
+    font-family: 'Hero-Bold';
+    color: #F9FAF8;
+    font-size: 48px;
+    max-width: 350px;
+}
+
+.subtext{
+    color: #E5E7EB;
+    font-family: 'Hero';
+    font-size: 18px;
+    margin-top: -25px;
+}
+
+.sign-up{
+    max-width: 95px;
+    border-radius: 8px;
+    padding: 5px 18px;
+    border: none;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    color: white;
+    padding: 80px 100px;
+    background-color: #b2b2b2;
 }
