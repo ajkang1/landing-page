@@ -66,7 +66,7 @@ a{
 
 .subtext{
     color: #E5E7EB;
-    font-family: 'Hero';
+    font-family: 'Arial';
     font-size: 18px;
     margin-top: -25px;
 }
@@ -89,4 +89,69 @@ a{
     color: white;
     padding: 80px 100px;
     background-color: #b2b2b2;
+}
+
+.random-title{
+    margin: 36px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Hero-Bold';
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.section-one{
+    padding-bottom: 100px;
+}
+
+.sub-container img{
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    padding: 100px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.random-text{
+    text-align: center;
+    max-width: 175px;
+    font-size: 18px;
+    font-family: 'Hero';
+    color: #d0d1d3;
+}
+
+.section-quote{
+    background-color: #E5E7EB;
+    padding: 100px 305px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Hero';
+    font-style: italic;
+}
+
+.from{
+    align-self: flex-end;
+    font-family: 'Arial';
+    font-weight: bold;
 }
